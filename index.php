@@ -4,7 +4,7 @@
 // Press the 'Run' button on the top to start the web server,
 // then click the URL that is emitted to the Output tab of the console
 
-echo "Brandon Mendel's CST336 Wbsite";
+echo " <h1> Brandon Mendel's CST336 Wbsite </h1>";
 
 ?>
 </body>
