@@ -1,0 +1,49 @@
+body {
+    background-color: #4C6F7A;
+    color: #223136;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+header {
+    font-size: 1.5em;
+}
+
+main {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.2em;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #CEDADE;
+}
+
+nav a:hover {
+    border-bottom: 2px solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+footer {
+    font-size: 0.8em;
+    color: #CEDADE;
+}
+
+#profile, #welcomeText {
+    float: left;
+}
+
+footer {
+    clear: left;
+}
+
+#logo {
+    float: left;
+}

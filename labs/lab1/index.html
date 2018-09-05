@@ -15,14 +15,14 @@ in html
         
         <meta charset="utf-8" />
         <title> Juan Doe: Personal Website</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
         
     </head>
 <!-- closing head -->
 
     <!-- This is the body -->
     <!-- This is where we place the content of our website -->
-    <body style="background-color:black; color:gray">
-        
+    <body>
         <header>
             <h1> Juan Doe </h1>
         </header>
@@ -38,11 +38,7 @@ in html
         
         <main>
             
-            <figure>
-                <img src="img/juan_doe.png" alt="Picture of Juan Doe" />
-            </figure>
-            
-            <div>
+            <div id="welcomeText">
                 Hello! <br />
                 <p>Thank you for visiting my professional portfolio website.</p>
                 <p>Feel free to contact me!</p>
@@ -54,6 +50,11 @@ in html
                  -Thomas F. Buxton
             </div>
             
+            <figure id="profile">
+                <img src="img/juan_doe.png" alt="Picture of Juan Doe" />
+            </figure>
+            
+            
         </main>
         
         <!-- This is the footer -->
@@ -61,9 +62,15 @@ in html
         <footer>
             
             <hr>
-            Internet Programming. 2018&copy; Mendel <br />
-            <strong>Disclaimer:</strong> The information on this webpage is fictitious.<br />
-            It is used for academic purposes only.
+            <figure id="logo">
+                <img src="img/csumb.jpg" alt="CSUMB logo" />
+            </figure>
+            
+            <div id="footerText">
+                Internet Programming. 2018&copy; Mendel <br />
+                <strong>Disclaimer:</strong> The information on this webpage is fictitious.<br />
+                It is used for academic purposes only.
+            </div>
             
         </footer>
         <!-- closing footer -->
