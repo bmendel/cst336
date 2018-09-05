@@ -47,3 +47,29 @@ footer {
 #logo {
     float: left;
 }
+
+table {
+    margin: 0px auto;   
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351A00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    text-allign: left;
+    padding-left: 200px;
+}
