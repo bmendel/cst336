@@ -1,20 +1,21 @@
+/* General style */
 body {
     background-color: #4C6F7A;
-    color: #223136;
+    color: #2C2F30;
 }
 
-header, main, nav, footer {
+header, #content_horizontal, #content_vertical, nav, footer {
     text-align: center;
 }
 
-header {
-    font-size: 1.5em;
+#content_horizontal {
+    display: flex;
+    justify-content: center;
 }
 
-main {
-    padding: 15px;
-    padding-bottom: 4px;
-    font-size: 1.2em;
+/* Header and Navigation bar */
+header a {
+    font-size: 1.5em;
 }
 
 nav a {
@@ -25,21 +26,13 @@ nav a {
     color: #CEDADE;
 }
 
-nav a:hover {
+nav a:hover, #selected {
     border-bottom: 2px solid;
     font-size: 2em;
     transition: .9s;
 }
 
-footer {
-    font-size: 0.8em;
-    color: #CEDADE;
-}
-
-#profile, #welcomeText {
-    float: left;
-}
-
+/* Footer */
 footer {
     clear: left;
 }
@@ -49,32 +42,47 @@ footer {
 }
 
 #footerText {
-    padding-right: 180px;
-    padding-top: 4px;
+    padding-right: 190px;
+    padding-top: 10px;
+    font-size: 0.8em;
+    color: #CEDADE;
 }
 
+/* Index page */
+#profile, #welcomeText {
+    padding-bottom: 4px;
+    float: left;
+}
+
+#welcomeText {
+    padding-top: 100px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+/* About page */
 table {
     margin: 0px auto;   
 }
 
 td {
+    padding-left: 10px;
     padding-right: 10px;
     font-size: 1.3em;
 }
 
 td strong {
-    color: orange;
+    color: #CEDADE;
 }
 
 #table-header {
-    background-color: #351A00;
+    background-color: #0581AB;
 }
 
 .table-row {
-    background-color: #753900;
+    background-color: #07ACE3;
 }
 
 ul {
     text-align: left;
-    padding-left: 200px;
 }
