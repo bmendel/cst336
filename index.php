@@ -1,11 +1,1 @@
-<html><body>
-<?php
-// A simple web site in Cloud9 that runs through Apache
-// Press the 'Run' button on the top to start the web server,
-// then click the URL that is emitted to the Output tab of the console
-
-echo " <h1> Brandon Mendel's CST336 Wbsite </h1>";
-
-?>
-</body>
-</html>
+<?php header("Location: labs/lab1/html/index.html"); ?>
