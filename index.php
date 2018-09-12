@@ -1,1 +1,1 @@
-<?php header("Location: labs/lab1/html/index.html"); ?>
+<?php header("Location: hw/hw1/html/home.html"); ?>

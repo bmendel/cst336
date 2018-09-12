@@ -1,0 +1,40 @@
+body{
+    font-size: 14pt;
+    font-family: 'Open Sans', sans-serif;
+    padding-left:150px;
+    padding-right:150px;
+}
+
+#title{
+    padding: 20px;
+    font-size: 32pt;
+    background-color: #272e8b;
+    color: white;
+}
+
+#about {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+#cd, #cs, #cs_online, #mist{
+    float: left;
+}
+
+#minors {
+    padding-top: 30px;
+    clear: left;
+}
+
+nav {
+    padding-left: 40px;
+}
+
+a {
+    color: #15194D;
+}
+
+footer {
+    padding-top: 25px;
+    font-size: 10pt;
+    text-align: center}
