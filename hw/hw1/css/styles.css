@@ -50,6 +50,12 @@ a:hover {
     padding-bottom: 75px;
 }
 
+sup {
+    vertical-align: super;
+    font-size: 10pt;
+    color: orange;
+}
+
 footer {
     display: flex;
     flex-direction: column;
