@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+header {
+    color: black;
+    text-shadow: 1px 1px white;
+    background-image: url("../img/minesweeper.jpg");
+    
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+tr, td {
+    border: 2pt solid grey;
+}
+
+.button {
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.button:hover {
+    background-color: silver;
+    transition-duration: 0.5s;
+}
+
+.mine:focus {
+    background-image: url("../img/mine.png");
+}
+
+.no_mine:focus {
+    background-image: url("../img/no_mine.png");
+}
