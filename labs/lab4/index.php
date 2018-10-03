@@ -1,7 +1,7 @@
 <?php
     $backgroundImage = "img/sea.jpg";
     // API call goes here
-    if (formIsValid()) {
+    if (isset($_GET['keyword'])) {
         include "api/pixabayAPI.php";
         $keyword = $_GET['keyword'];
         $imageURLs = getImageURLs($keyword, $_GET['orientation']);
@@ -9,7 +9,11 @@
     }
     
     function formIsValid() {
-        return !(empty($_GET['keyword']) && empty($_GET['category']));
+        if (empty($_GET['keyword']) && empty($_GET['category'])) {
+            echo "<h2> Please enter a keyword and/or a category!</h2>";
+            return false;
+        }
+        return true;
     }
 ?>
 
