@@ -1,0 +1,53 @@
+body {
+    background-image: url('../img/coc_background.jpg');
+    background-size: cover;
+    color: gold;
+    text-align: center;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.menu {
+    text-align: left;
+    color: silver;
+}
+
+.card, th {
+    border: 10pt solid;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 16pt;
+    font-family: sans-serif, ;
+}
+
+#common {
+    color: white;
+    border-color: white;
+}
+
+#rare {
+    color: silver;
+    border-color: silver;
+}
+
+#legend {
+    color: gold;
+    border-color: gold;
+}
+
+input[type='submit'] {
+    background-color: grey;
+    font-size: 16pt;
+    font-family: 'IM Fell DW Pica SC', serif;
+    border: none;
+}
+
+input[type='submit']:hover {
+    color: gold;
+    transition-duration: 0.5s;
+}
+
+footer {
+    font-size: 10;
+}

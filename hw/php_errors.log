@@ -1,0 +1,7 @@
+[15-Oct-2018 22:10:42 UTC] PHP Fatal error:  Call to undefined function isempty() in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 5
+[15-Oct-2018 22:10:42 UTC] PHP Stack trace:
+[15-Oct-2018 22:10:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[15-Oct-2018 22:10:42 UTC] PHP   2. isValid() /home/ubuntu/workspace/cst336/hw/hw3/index.php:59
+[17-Oct-2018 18:35:51 UTC] PHP Fatal error:  Call to undefined function getColor() in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 68
+[17-Oct-2018 18:35:51 UTC] PHP Stack trace:
+[17-Oct-2018 18:35:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0

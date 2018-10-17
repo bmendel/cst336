@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+table, tr, td {
+    border: 2pt solid;
+    border-collapse: collapse;
+}
+
+tr, td {
+    padding: 50px;
+}
+
+#error {
+    color: red;
+    font-size: 24pt;
+}
+
