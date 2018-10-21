@@ -28,10 +28,10 @@
                     }
                 }   
                 if ($inCart) {
-                    echo '<td><button  class-\'btn btn-success\'>Added</button></td>';
+                    echo '<td><button class-\'btn btn-success\' disabled>Added</button></td>';
                 }
                 else {
-                    echo '<td><button  class-\'btn btn-warning\'>Add</button></td>';
+                    echo '<td><button class-\'btn btn-warning\'>Add</button></td>';
                 }
                 
                 echo '</tr>';
@@ -69,6 +69,7 @@
                 echo '<form method=\'post\'>';
                 echo '<input type=\'hidden\' name=\'removeId\' value=\'' . $itemId . '\'>';
                 echo '<td><button  class-\'btn btn-danger\'>Remove</button></td>';
+                echo '</form>';
                 echo '</tr>';
             }
             echo '</table>';
