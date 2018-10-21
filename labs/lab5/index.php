@@ -1,3 +1,37 @@
+<?php
+    session_start();
+    include 'functions.php';
+    
+    if (!isset($_SESSION['cart'])) {
+        $_SESSION['cart'] = array();
+    }
+    
+    if (isset($_GET['query'])) {
+        include 'wmapi.php';
+        $items = getProducts($_GET['query']);
+    }
+    
+    if (isset($_POST['itemName'])) {
+        $newItem = array();
+        $newItem['name'] = $_POST['itemName'];
+        $newItem['id'] = $_POST['itemId'];
+        $newItem['price'] = $_POST['itemPrice'];
+        $newItem['image'] = $_POST['itemImage'];
+        
+        foreach ($_SESSION['cart'] as &$item) {
+            if ($newItem['id'] == $item['id']) {
+                ++$item['quantity'];
+                $found = true;
+            }
+        }
+        
+        if (!$found) {
+            $newItem['quantity'] = 1;
+            array_push($_SESSION['cart'], $newItem);
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,7 +55,9 @@
                     </div>
                     <ul class='nav navbar-nav'>
                         <li><a href='index.php'>Home</a></li>
-                        <li><a href='scart.php'>Cart</a></li>
+                        <li><a href='scart.php'>
+                        <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'>
+                        </span>Cart: <?php displayCartCount(); ?></a></li>
                     </ul>
                 </div>
             </nav>
@@ -38,6 +74,7 @@
             </form>
             
             <!-- Display Search Results -->
+            <?php displayResults(); ?>
             
         </div>
     </div>
