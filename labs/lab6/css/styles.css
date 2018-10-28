@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    padding-top: 50px;
+}
+
+table {
+    text-align: left;
+}
+
+#results {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
