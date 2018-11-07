@@ -1,0 +1,36 @@
+[05-Nov-2018 22:13:54 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 5
+[05-Nov-2018 22:13:54 UTC] PHP Stack trace:
+[05-Nov-2018 22:13:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0
+[05-Nov-2018 22:13:54 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 5
+[05-Nov-2018 22:13:54 UTC] PHP Stack trace:
+[05-Nov-2018 22:13:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0
+[05-Nov-2018 22:13:54 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 6
+[05-Nov-2018 22:13:54 UTC] PHP Stack trace:
+[05-Nov-2018 22:13:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0
+[05-Nov-2018 22:16:10 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 5
+[05-Nov-2018 22:16:10 UTC] PHP Stack trace:
+[05-Nov-2018 22:16:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0
+[05-Nov-2018 22:16:10 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 5
+[05-Nov-2018 22:16:10 UTC] PHP Stack trace:
+[05-Nov-2018 22:16:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0
+[05-Nov-2018 22:16:10 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 6
+[05-Nov-2018 22:16:10 UTC] PHP Stack trace:
+[05-Nov-2018 22:16:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0
+[05-Nov-2018 22:16:27 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 5
+[05-Nov-2018 22:16:27 UTC] PHP Stack trace:
+[05-Nov-2018 22:16:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0
+[05-Nov-2018 22:16:27 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 5
+[05-Nov-2018 22:16:27 UTC] PHP Stack trace:
+[05-Nov-2018 22:16:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0
+[05-Nov-2018 22:16:27 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 6
+[05-Nov-2018 22:16:27 UTC] PHP Stack trace:
+[05-Nov-2018 22:16:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0
+[05-Nov-2018 22:16:57 UTC] PHP Warning:  include(./dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 5
+[05-Nov-2018 22:16:57 UTC] PHP Stack trace:
+[05-Nov-2018 22:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0
+[05-Nov-2018 22:16:57 UTC] PHP Warning:  include(): Failed opening './dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 5
+[05-Nov-2018 22:16:57 UTC] PHP Stack trace:
+[05-Nov-2018 22:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0
+[05-Nov-2018 22:16:57 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/team9project/inc/functions_maryann.php on line 6
+[05-Nov-2018 22:16:57 UTC] PHP Stack trace:
+[05-Nov-2018 22:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/team9project/inc/functions_maryann.php:0

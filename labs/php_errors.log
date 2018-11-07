@@ -167,3 +167,63 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(110): displaySearchResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 60
+[29-Oct-2018 22:06:57 UTC] PHP Fatal error:  Call to undefined function shal() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 8
+[29-Oct-2018 22:06:57 UTC] PHP Stack trace:
+[29-Oct-2018 22:06:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[29-Oct-2018 22:07:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 19
+[31-Oct-2018 21:44:59 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/labs/lab7/admin.php on line 4
+[31-Oct-2018 21:44:59 UTC] PHP Stack trace:
+[31-Oct-2018 21:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[31-Oct-2018 21:45:12 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/labs/lab7/admin.php on line 4
+[31-Oct-2018 21:45:12 UTC] PHP Stack trace:
+[31-Oct-2018 21:45:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[31-Oct-2018 21:45:42 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/labs/lab7/admin.php on line 4
+[31-Oct-2018 21:45:42 UTC] PHP Stack trace:
+[31-Oct-2018 21:45:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[31-Oct-2018 21:45:58 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/labs/lab7/admin.php on line 4
+[31-Oct-2018 21:45:58 UTC] PHP Stack trace:
+[31-Oct-2018 21:45:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[31-Oct-2018 21:46:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 14
+[31-Oct-2018 21:46:38 UTC] PHP Stack trace:
+[31-Oct-2018 21:46:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[31-Oct-2018 21:46:38 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:39
+[31-Oct-2018 21:48:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 14
+[31-Oct-2018 21:48:32 UTC] PHP Stack trace:
+[31-Oct-2018 21:48:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[31-Oct-2018 21:48:32 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:39
+[31-Oct-2018 21:48:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 14
+[31-Oct-2018 21:48:33 UTC] PHP Stack trace:
+[31-Oct-2018 21:48:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[31-Oct-2018 21:48:33 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:39
+[31-Oct-2018 21:48:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 14
+[31-Oct-2018 21:48:34 UTC] PHP Stack trace:
+[31-Oct-2018 21:48:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[31-Oct-2018 21:48:34 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:39
+[31-Oct-2018 21:48:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 14
+[31-Oct-2018 21:48:34 UTC] PHP Stack trace:
+[31-Oct-2018 21:48:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[31-Oct-2018 21:48:34 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:39
+[31-Oct-2018 21:48:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 31
+[31-Oct-2018 21:48:37 UTC] PHP Stack trace:
+[31-Oct-2018 21:48:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:0
+[31-Oct-2018 21:48:37 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:39
+[31-Oct-2018 21:49:30 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 14
+[31-Oct-2018 21:49:30 UTC] PHP Stack trace:
+[31-Oct-2018 21:49:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[31-Oct-2018 21:49:30 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:39
+[31-Oct-2018 21:49:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 31
+[31-Oct-2018 21:49:32 UTC] PHP Stack trace:
+[31-Oct-2018 21:49:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:0
+[31-Oct-2018 21:49:32 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:39
+[31-Oct-2018 21:55:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 14
+[31-Oct-2018 21:55:13 UTC] PHP Stack trace:
+[31-Oct-2018 21:55:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[31-Oct-2018 21:55:13 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:38
+[31-Oct-2018 21:55:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 31
+[31-Oct-2018 21:55:15 UTC] PHP Stack trace:
+[31-Oct-2018 21:55:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:0
+[31-Oct-2018 21:55:15 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php:43
