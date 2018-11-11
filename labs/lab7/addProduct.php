@@ -20,7 +20,7 @@
         
         $stmt = $dbConn->prepare($sql);
         $stmt->execute($np);
-        echo "New Product was added!";
+        echo "New product " . $_GET['productName'] . " was added!<br>";
     }
 ?>
 
@@ -34,7 +34,7 @@
         
         <form>
             Product name: <input type='text' name='productName'><br>
-            Description: <textarea name='description' cols='50' rows='4'></textarea><br>
+            Description: <textarea name='productDescription' cols='50' rows='4'></textarea><br>
             Price: <input type='text' name='price'><br>
             Category:
             <select name='catId'>
@@ -46,8 +46,12 @@
                     }
                 ?>
             </select><br>
-            Set Image URL: <input type='text' name='productImg'><br>
-            <input type='submit' name='submitProduct' value='Add Product'>
+            Set Image URL: <input type='text' name='productImage'><br>
+            <input type='submit' name='addProduct' value='Add Product'>
+        </form>
+        
+        <form action='admin.php'>
+            <input type='submit' name='' value='Back to Admin'>
         </form>
     </body>
 </html>

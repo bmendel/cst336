@@ -16,11 +16,15 @@
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
         foreach($records as $r) {
-            echo "[<a href='updateProduct.php'> Update </a>]";
-            echo "<form action='deleteProduct.php' onsubmit='ConfirmDelete()'>";
-            echo "  <input type='hidden' name='productId' value=-'" . $record['productId'] . "'>";
-            echo "  <button type='submit'> Delete </button>";
-            echo $record['productName'] . " $" . $record['price'] . "<br>";
+            echo "<a class='btn btn-primary' role='button' href='updateProduct.php?productId=".$r['productId']."'>Update</a>";
+            echo "<form action='deleteProduct.php' onsubmit='return confirmDelete()'>";
+                echo "   <input type='hidden' name='productId' value='".$r['productId']."'>";
+                echo "   <button class='btn btn-outline-danger' type='submit'>Delete</button>";
+            echo "</form>";
+            
+            echo "[<a onclick='openModal()' target='productModal'
+            href='productInfo.php?productId=".$r['productId']."'>".$r['productName']."</a>]  ";
+            echo " $" . $r['price']   . "<br><br>";
         }
     }
     
@@ -35,7 +39,7 @@
         return $records;
     }
     
-    function geProductInfo($productId) {
+    function getProductInfo($productId) {
         global $dbConn;
         
         $sql = "SELECT * FROM om_product WHERE productId = $productId";

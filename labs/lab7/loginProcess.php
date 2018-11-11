@@ -21,6 +21,9 @@
     
     if (empty($record)) {
         echo "Wrong username or password!";
+        echo "<form action='index.php'>";
+        echo "<input type='submit' name='' value='Back to Login'>";
+        echo "</form>";
     }
     else {
         $_SESSION['adminFullName'] = $record['firstName'] . " " . $record['lastName'];
