@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <title>Rock Paper Scissors</title>
+    
+    <head>
+
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <script src='js/script.js'></script>
+        
+    </head>
+    
+    <body>
+        
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+        
+        <table align=center>
+            <tr>
+                <td><h2 id='player'>Player</h2></td>
+                <td><h2 id='computer'>Computer</h2></td>
+            </tr>
+            <tr>
+                <!-- Player images -->
+                <td id='playerCol'>
+                    <img id='rock' src='img/rock.png' alt='rock' onclick='playerSelect(this)' /><br><br><br>
+                    <img id='paper' src='img/paper.png' alt='paper' onclick='playerSelect(this)' /><br><br><br>
+                    <img id='scissors' src='img/scissors.png' alt='scissors' onclick='playerSelect(this)' /><br><br><br>
+                </td>
+                <!-- Computer images -->
+                <td id='compCol'>
+                    <img id='c_rock' src='img/rock.png' alt='rock' /><br><br><br>
+                    <img id='c_paper' src='img/paper.png' alt='paper' /><br><br><br>
+                    <img id='c_scissors' src='img/scissors.png' alt='scissors' /><br><br><br>
+                </td>
+            </tr>
+        </table>
+        
+        <h1 id='message' onclick='resetGame()'>Choose rock, paper, or scissors!</h1>
+    </body>
+</html>

@@ -7,10 +7,7 @@
     validateSession();
     
     if (isset($_GET['productId'])) {
-    
       $productInfo = getProductInfo($_GET['productId']);    
-      //print_r($productInfo);
-        
     }
 
 ?>
