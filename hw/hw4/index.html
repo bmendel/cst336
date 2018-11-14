@@ -6,6 +6,16 @@
 
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <script src='js/script.js'></script>
+        <script src='https://code.jquery.com/jquery-3.3.1.min.js'>
+            $('document').ready(function() {
+               $('#message').hover(function() {
+                   $('#message').animate({
+                       height: '+=50px',
+                       width: '+=50px'
+                   });
+               });
+            });
+        </script>
         
     </head>
     
@@ -22,13 +32,13 @@
             </tr>
             <tr>
                 <!-- Player images -->
-                <td id='playerCol'>
+                <td class='col' id='playerCol'>
                     <img id='rock' src='img/rock.png' alt='rock' onclick='playerSelect(this)' /><br><br><br>
                     <img id='paper' src='img/paper.png' alt='paper' onclick='playerSelect(this)' /><br><br><br>
                     <img id='scissors' src='img/scissors.png' alt='scissors' onclick='playerSelect(this)' /><br><br><br>
                 </td>
                 <!-- Computer images -->
-                <td id='compCol'>
+                <td class='col' id='compCol'>
                     <img id='c_rock' src='img/rock.png' alt='rock' /><br><br><br>
                     <img id='c_paper' src='img/paper.png' alt='paper' /><br><br><br>
                     <img id='c_scissors' src='img/scissors.png' alt='scissors' /><br><br><br>

@@ -31,21 +31,21 @@
     function getResult(player, comp) {
         var playerCol, compCol;
         if (player == comp) {
-            playerCol = 'silver';
-            compCol = 'silver';
-            document.getElementById('message').innerHTML = "It's a tie!"
+            playerCol = 'lightblue';
+            compCol = 'lightblue';
+            document.getElementById('message').innerHTML = "It's a tie! Click here to play again!"
         }
         else if ((player == 'rock' && comp == 'scissors')
                 || (player == 'paper' && comp == 'rock')
                 || (player == 'scissors' && comp == 'paper')) {
-            playerCol = 'green';
+            playerCol = 'lightgreen';
             compCol = 'red';
-            document.getElementById('message').innerHTML = "The player wins!"
+            document.getElementById('message').innerHTML = "The player wins! Click here to play again!"
         }
         else {
             playerCol = 'red';
-            compCol = 'green';
-            document.getElementById('message').innerHTML = "The computer wins!"
+            compCol = 'lightgreen';
+            document.getElementById('message').innerHTML = "The computer wins! Click here to play again!"
         }
         
         document.getElementById('playerCol').style.backgroundColor = playerCol;
@@ -67,10 +67,10 @@
         comp = 'none';
         start = true;
         
-        document.getElementById('playerCol').style.backgroundColor = 'white';
-        document.getElementById('compCol').style.backgroundColor = 'white';
+        document.getElementById('playerCol').style.backgroundColor = 'grey';
+        document.getElementById('compCol').style.backgroundColor = 'grey';
         document.getElementById('message').innerHTML = "Choose rock, paper, or scissors!"
-        document.getElementById('message').style.color = 'black';
+        document.getElementById('message').style.color = 'gold';
         
         
     }
