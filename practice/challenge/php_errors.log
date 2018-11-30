@@ -1,0 +1,243 @@
+[28-Nov-2018 22:44:50 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:44:50 UTC] PHP Stack trace:
+[28-Nov-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:44:50 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:44:50 UTC] PHP Stack trace:
+[28-Nov-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:44:50 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:44:50 UTC] PHP Stack trace:
+[28-Nov-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:45:06 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:45:06 UTC] PHP Stack trace:
+[28-Nov-2018 22:45:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:45:06 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:45:06 UTC] PHP Stack trace:
+[28-Nov-2018 22:45:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:45:06 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:45:06 UTC] PHP Stack trace:
+[28-Nov-2018 22:45:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:45:47 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:45:47 UTC] PHP Stack trace:
+[28-Nov-2018 22:45:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:45:47 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:45:47 UTC] PHP Stack trace:
+[28-Nov-2018 22:45:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:45:47 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:45:47 UTC] PHP Stack trace:
+[28-Nov-2018 22:45:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:45:59 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:45:59 UTC] PHP Stack trace:
+[28-Nov-2018 22:45:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:45:59 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:45:59 UTC] PHP Stack trace:
+[28-Nov-2018 22:45:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:45:59 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:45:59 UTC] PHP Stack trace:
+[28-Nov-2018 22:45:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:00 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:46:00 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:24 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:24 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:24 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:24 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:24 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:46:24 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:25 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:25 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:25 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:25 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:25 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:46:25 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:26 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:26 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:26 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:46:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:26 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:26 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:26 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:46:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:26 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:26 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:26 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:46:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:57 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:57 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:57 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:46:57 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:46:57 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:46:57 UTC] PHP Stack trace:
+[28-Nov-2018 22:46:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:47:15 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:47:15 UTC] PHP Stack trace:
+[28-Nov-2018 22:47:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:47:15 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:47:15 UTC] PHP Stack trace:
+[28-Nov-2018 22:47:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:47:15 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:47:15 UTC] PHP Stack trace:
+[28-Nov-2018 22:47:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:52:15 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:52:15 UTC] PHP Stack trace:
+[28-Nov-2018 22:52:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:52:15 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:52:15 UTC] PHP Stack trace:
+[28-Nov-2018 22:52:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:52:15 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:52:15 UTC] PHP Stack trace:
+[28-Nov-2018 22:52:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:52:26 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:52:26 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:52:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:52:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:52:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:52:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:52:26 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:52:26 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:52:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:52:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:52:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:52:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:52:26 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:52:26 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:52:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:52:26 UTC] PHP Stack trace:
+[28-Nov-2018 22:52:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:52:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:59:46 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:59:46 UTC] PHP Stack trace:
+[28-Nov-2018 22:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:59:46 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 22:59:46 UTC] PHP Stack trace:
+[28-Nov-2018 22:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 22:59:46 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 22:59:46 UTC] PHP Stack trace:
+[28-Nov-2018 22:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:03:47 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:03:47 UTC] PHP Stack trace:
+[28-Nov-2018 23:03:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:03:47 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:03:47 UTC] PHP Stack trace:
+[28-Nov-2018 23:03:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:03:47 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 23:03:47 UTC] PHP Stack trace:
+[28-Nov-2018 23:03:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:03:51 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:03:51 UTC] PHP Stack trace:
+[28-Nov-2018 23:03:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:03:51 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:03:51 UTC] PHP Stack trace:
+[28-Nov-2018 23:03:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:03:51 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 23:03:51 UTC] PHP Stack trace:
+[28-Nov-2018 23:03:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:03:51 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:03:51 UTC] PHP Stack trace:
+[28-Nov-2018 23:03:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:03:51 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:03:51 UTC] PHP Stack trace:
+[28-Nov-2018 23:03:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:03:51 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 23:03:51 UTC] PHP Stack trace:
+[28-Nov-2018 23:03:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:04 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:07:04 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:04 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:07:04 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:04 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 23:07:04 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:08 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:07:08 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:08 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:07:08 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:08 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 23:07:08 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:08 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:07:08 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:08 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:07:08 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:08 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 23:07:08 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:25 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:07:25 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:25 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:07:25 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:07:25 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 23:07:25 UTC] PHP Stack trace:
+[28-Nov-2018 23:07:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:08:23 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:08:23 UTC] PHP Stack trace:
+[28-Nov-2018 23:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:08:23 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 5
+[28-Nov-2018 23:08:23 UTC] PHP Stack trace:
+[28-Nov-2018 23:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0
+[28-Nov-2018 23:08:23 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php on line 6
+[28-Nov-2018 23:08:23 UTC] PHP Stack trace:
+[28-Nov-2018 23:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/challenge/poll/recordPoll.php:0

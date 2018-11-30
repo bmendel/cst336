@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        
+        <title>AJAX: Sign up Page</title>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>   
+        <script src='https://code.jquery.com/jquery-3.1.0.js'></script>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        
+        <script>
+            
+            function validateForm() {
+                var username = $('#username').val();
+                var password = $('#password').val();
+                var passwordConfirm = $('#passwordConfirm').val();
+                var valid = true;
+                
+                if (username.length < 5) {
+                    $('#usernameMessage').html("Error: Username must be at least 5 characters long.");
+                    $('#usernameMessage').css('color', 'red');
+                    valid = false;
+                }
+                else {
+                    $('#usernameMessage').empty();
+                }
+                
+                if (password.length < 3) {
+                    $('#passwordError').html("Error: Password must be at least 3 characters long.");
+                    valid = false;
+                }
+                else {
+                    $('#passwordError').empty();
+                }
+                
+                if (password != passwordConfirm) {
+                    $('#passwordMismatch').html("Error: Passwords must match.")
+                    valid = false;
+                }
+                else {
+                    $('#passwordMismatch').empty();
+                }
+                
+                return valid;
+            }
+            
+            $('document').ready(function() {
+                
+               $('#zip').change(function() {
+                  var zip = $('#zip').val();
+                  $.ajax({
+                      
+                      type: "GET",
+                      url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                      datatype: "json",
+                      data: { 'zip': zip },
+                      success: function(data, status) {
+                          if (!data) {
+                              $('#zipcodeMessage').html("Zip code not found");
+                          }
+                          else {
+                              //alert(data);
+                              $('#city').html(data.city);
+                              $('#latitude').html(data.latitude);
+                              $('#longitude').html(data.longitude);
+                          }
+                      },
+                      complete: function(data, status) { // optional for debugging
+                          //alert(status)
+                      }
+                      
+                  }); //ajax 
+               }); // zip event
+               
+               $('#username').change(function() {
+                   var username = $('#username').val();
+                   $.ajax({
+                       
+                       type: "GET",
+                       url: "checkUsername.php",
+                       dataType: "json",
+                       data: { 'username': username },
+                       success: function(data, status) {
+                           //alert(data);
+                           if (!data) {
+                                $('#usernameMessage').html("Username is available.");
+                                $('#usernameMessage').css('color', 'green');
+                           }
+                           else {
+                                $('#usernameMessage').html("Username is unavailable.");
+                                $('#usernameMessage').css('color', 'red');
+                           }
+                       },
+                       complete: function(data, status) {
+                           //alert(status);
+                       }
+                       
+                   }); //ajax
+               }); //username event
+               
+               $('#state').change(function() {
+                   var state = $('#state'.val());
+                   $.ajax({
+                       
+                       type: "GET",
+                       url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                       dataType: "json",
+                       data: { 'state': state },
+                       success: function(data, state) {
+                            //alert(data);
+                            $('#county').html("Select one");
+                            for (var i = 0; i < data.length; ++i) {
+                                $('#county').append("<option>" + data[i].county + "</option>");
+                            }
+                       },
+                       complete: function(data, status) {
+                            //alert(status);
+                       }
+                       
+                   }); //ajax
+               }); //state event
+               
+            }); //documentReady
+        </script>
+        
+        
+        
+    </head>
+    
+    <body>
+        <h1> Sign Up Form </h1>
+        
+        
+        <form action='confirm.html' method='GET' onsubmit='return validateForm()'>
+            <fieldset>
+                <div class='container'>    
+                    <legend>Sign Up</legend>
+                    <div class='row'>
+                        <div class='col'>First Name:</div>         
+                        <div class='col-9'><input type='text'></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>Last Name:</div>         
+                        <div class='col-9'><input type='text'></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>Email:</div>         
+                        <div class='col-9'><input type='text'></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>Phone Number:</div>         
+                        <div class='col-9'><input type='text'></div>
+                    </div>
+                    
+                    <div class='row'>
+                        <div class='col'>Zip Code:</div>         
+                        <div class='col-9'><input id='zip' type='text'>
+                                           <span id='zipcodeMessage' class='error'></span></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>City:</div>         
+                        <div class='col-9'> <span id='city'></span></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>Latitude:</div>         
+                        <div class='col-9'><span id='latitude'></span></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>Longitude:</div>         
+                        <div class='col-9'><span id='longitude'></span></div>
+                    </div>
+                    
+                    <div class='row'>
+                        <div class='col'>State:</div>         
+                        <div class='col-9'><select id='state'>
+                                                <option value=''>Select One</option>
+                                                <option value='ca'>California</option>
+                                                <option value='ny'>New York</option>
+                                                <option value='tx'>Texas</option>
+                                                <option value='va'>Virginia</option>
+                                           </select></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>County:</div>         
+                        <div class='col-9'><select id='county'>
+                                                <option value=''>Select One</option>
+                                           </select></div>
+                    </div>
+                    
+                    <div class='row'>
+                        <div class='col'>Username:</div>         
+                        <div class='col-9'><input id='username' type='text' name='username'>
+                                           <span id='usernameMessage' class='error'></span></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>Password:</div>         
+                        <div class='col-9'><input id='password' type='text' name='password'>
+                                           <span id='passwordError' class='error'></span></div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>Confirm Password:</div>         
+                        <div class='col-9'><input id='passwordConfirm' type='text'>
+                                           <span id='passwordMismatch' class='error'></span></div>
+                    </div>
+                </div><br>
+                                        
+                <input type='submit' class='btn btn-outline-dark' value='Sign up!'>
+                    
+            </fieldset>
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>AJAX: Confirm Password</title>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>   
+        <script src='https://code.jquery.com/jquery-3.1.0.js'></script>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        
+        <script>
+        
+            function validatePassword() {
+                var correctPassword = $_GET['password'];
+                var typedPassword = $('#password').val();
+                var valid = true;
+                alert("Correct password: " + correctPassword + ", Typed password: " + typedPassword);
+                
+                if (correctPassword !== typedPassword) {
+                    $('#passwordMismatch').html("Error: Wrong password");
+                    valid = false;
+                }
+                else {
+                    $('#passwordMismatch').empty();
+                }
+                
+                return valid;
+            }
+            
+        </script>
+    </head>
+    
+    <body>
+        
+        <form action='index.html' onsubmit='return validatePassword()'>
+            <fieldset>
+                <div class='container'>
+                    
+                        <legend>Validate Password</legend>
+                        <div class='row'>
+                            <div class='col'>Retype Password:</div>         
+                            <div class='col-9'><input id='password' type='text'>
+                                               <span id='passwordMismatch' class='error'></span></div>
+                        </div>
+                        
+                </div>                  
+                <input type='submit' class='btn btn-outline-dark' value='Sign up!'>
+                    
+            </fieldset>
+        </form>
+        
+    </body>
+</html>
