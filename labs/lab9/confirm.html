@@ -13,10 +13,10 @@
         <script>
         
             function validatePassword() {
-                var correctPassword = $_GET['password'];
+                var correctPassword = $_POST['password'];
                 var typedPassword = $('#password').val();
                 var valid = true;
-                alert("Correct password: " + correctPassword + ", Typed password: " + typedPassword);
+                //alert("Correct password: " + correctPassword + ", Typed password: " + typedPassword);
                 
                 if (correctPassword !== typedPassword) {
                     $('#passwordMismatch').html("Error: Wrong password");
@@ -34,18 +34,20 @@
     
     <body>
         
+        <h1> Validate Password </h1>
+        
         <form action='index.html' onsubmit='return validatePassword()'>
             <fieldset>
+                
                 <div class='container'>
                     
-                        <legend>Validate Password</legend>
                         <div class='row'>
                             <div class='col'>Retype Password:</div>         
                             <div class='col-9'><input id='password' type='text'>
                                                <span id='passwordMismatch' class='error'></span></div>
                         </div>
                         
-                </div>                  
+                </div><br>                  
                 <input type='submit' class='btn btn-outline-dark' value='Sign up!'>
                     
             </fieldset>
