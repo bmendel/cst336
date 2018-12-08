@@ -593,3 +593,6 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/practice/midterm1practice/midterm_practice2.php(38): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/practice/midterm1practice/midterm_practice2.php on line 38
+[03-Dec-2018 21:14:03 UTC] PHP Fatal error:  Call to undefined function execute() in /home/ubuntu/workspace/cst336/practice/p10/verifyUser.php on line 17
+[03-Dec-2018 21:14:03 UTC] PHP Stack trace:
+[03-Dec-2018 21:14:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p10/verifyUser.php:0

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSUMB Online Quiz</title>
+        <link href='css/styles.css' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <script>
+        $('document').ready(function() {
+            
+            $('#submit').click(function() {
+                var points = 0;
+                if ($('input[name:question1]').val() == '1994') {
+                    ++points;
+                }
+                if ($('input[name:question2]:checked').val() == 'c') {
+                    ++points;
+                }
+                
+                $('#scores').empty();
+                $('#scores').html("Your final score is" + points);
+            }); // end submit click
+        }); // end document
+    </script>
+    
+    <body>
+        <div class='user-menu'>
+            <form action='login.html'>
+                Welcome! 
+                <input id='logoutBtn' type='submit' value='Logout' action='login.html'>
+            </form>
+        </div>
+        
+        <div class='content-wrapper'>
+            <div id='quiz'>
+                <h1>Quiz</h1>
+                <form>
+                    <!-- Question 1 -->
+                    What year was CSUMB founded?
+                    <input type='text' name='question1' size='5'><br>
+                    <div id='question1-feedback' class='answer'></div><br>
+                    
+                    <!-- Question 2 -->
+                    What is the name of CSUMB's mascot?<br>
+                    <input id='q2-1' type='radio' name='question2' value='a'>Otto<br>
+                    <input id='q2-2' type='radio' name='question2' value='b'>Albus<br>
+                    <input id='q2-3' type='radio' name='question2' value='c'>Monte Ray<br>
+                    <div id='question2-feedback' class='answer'></div><br>
+                    
+                    <button type='button' id='submit'>Submit</button>
+                    <!-- Will display the "loading" animated gif -->
+                    <div id='waiting'></div>
+                    <!-- Will display the quiz score -->
+                    <div id='scores'></div>
+                </form>
+            </div>
+            
+            <div id='mascot'>
+                <img src='img/mascot.png' alt='CSUMB Mascot' width='350'>
+            </div>
+        </div>
+        
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+        <script src='js/gradeQuiz/js'></script>
+    </body>
+</html>

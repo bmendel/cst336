@@ -4,7 +4,6 @@
     function startConnection($dbname="ottermart") {
         
         $host = "localhost";
-        $dbname = $dbname;
         $username = "root";
         $password = "";
         

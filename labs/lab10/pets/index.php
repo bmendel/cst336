@@ -18,47 +18,16 @@
     </head>
     
     <body>
-        
-	    <!--Add main menu here -->
-	    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">CSUMB</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Adopt</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </nav>
-    
-        <div class="jumbotron">
-            <h1> CSUMB Animal Shelter</h1>
-            <h2> The "official" animal adoption website of CSUMB </h2>
-        </div>
+	    <?php
+	        include 'inc/header.php'
+	    ?>
         
         <!-- Display carousel here -->
-        <a class='btn btn-outline-dark' href='adoptions.php' role='button'>Adopt Now</a>
+        <a class='btn btn-outline-dark' href='pets.php' role='button'>Adopt Now</a>
+        <br><br>
         
-        <footer>
-            <br><br>
-            
-            <strong>Disclaimer:</strong> The information on this webpage is fictitious.<br>
-            It is used for academic purposes only. <br>
-            &copy; Mendel 2018
-        </footer>
+        <?php
+	        include 'inc/footer.php'
+	    ?>
     </body>
 </html>
