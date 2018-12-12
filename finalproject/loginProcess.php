@@ -3,7 +3,7 @@
     function verifyLogin() {
         session_start();
         
-        include 'inc/dbConnection.php';
+        include '../inc/dbConnection.php';
         $dbConn = startConnection('dungeon_keeper');
         
         $username = $_POST['username'];

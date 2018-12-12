@@ -1,7 +1,7 @@
 <?php
     session_start();
     
-    include 'inc/dbConnection.php';
+    include '../inc/dbConnection.php';
     include 'inc/functions.php';
     
     $dbConn = startConnection('dungeon_keeper');

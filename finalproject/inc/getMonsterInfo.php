@@ -1,7 +1,7 @@
 
 <?php
 
-    include 'dbConnection.php';
+    include '../../inc/dbConnection.php';
     $dbConn = startConnection('dungeon_keeper');
     
     $sql = "SELECT * FROM dk_products WHERE productId = :id";

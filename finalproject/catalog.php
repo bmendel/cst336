@@ -1,7 +1,7 @@
 
 <?php
     session_start();
-    include 'inc/dbConnection.php';
+    include '../inc/dbConnection.php';
     $dbConn = startConnection('dungeon_keeper');
     include 'inc/functions.php';
 ?>
@@ -62,8 +62,8 @@
                 </div>
             </div><br>
             
-            <a class='btn btn-outline-dark' href='index.php' role='button'>Home</a>
             <button type='submit' class='btn btn-outline-dark' name='search' value='Search'>Search</button>
+            <a class='btn btn-outline-dark' href='index.php' role='button'>Home</a>
         </form>
         
         <br><hr><br>
