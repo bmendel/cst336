@@ -168,7 +168,7 @@
         echo "</div>";
         echo "<div class='d-flex justify-content-center form-group row'>";
         echo "  <div class='col-1'>Total In Stock: </div>";  
-        echo "  <div class='col-1'>" . $totalProducts . "</div>";
+        echo "  <div class='col-1'>" . $totalStock . "</div>";
         echo "</div>";
     }
 ?>

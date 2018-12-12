@@ -39,7 +39,7 @@ CREATE TABLE `dk_admin` (
 --
 
 INSERT INTO `dk_admin` (`userId`, `username`, `password`) VALUES
-(1, 'username', 'E5E9FA1BA31ECD1AE84F75CAAA474F3A663F05F4');
+(1, 'admin', 'E5E9FA1BA31ECD1AE84F75CAAA474F3A663F05F4');
 
 -- --------------------------------------------------------
 
