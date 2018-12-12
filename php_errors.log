@@ -1,0 +1,282 @@
+[12-Dec-2018 00:06:09 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:06:09 UTC] PHP Stack trace:
+[12-Dec-2018 00:06:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:06:09 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:06:09 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:06:09 UTC] PHP Stack trace:
+[12-Dec-2018 00:06:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:06:09 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:06:09 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:06:09 UTC] PHP Stack trace:
+[12-Dec-2018 00:06:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:06:09 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:06:09 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:06:09 UTC] PHP Stack trace:
+[12-Dec-2018 00:06:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:06:09 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:06:09 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:06:09 UTC] PHP Stack trace:
+[12-Dec-2018 00:06:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:06:09 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:06:09 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:06:09 UTC] PHP Stack trace:
+[12-Dec-2018 00:06:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:06:09 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:06:51 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:06:51 UTC] PHP Stack trace:
+[12-Dec-2018 00:06:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:06:51 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:06:51 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:06:51 UTC] PHP Stack trace:
+[12-Dec-2018 00:06:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:06:51 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:06:56 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:06:56 UTC] PHP Stack trace:
+[12-Dec-2018 00:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:06:56 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:06:56 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:06:56 UTC] PHP Stack trace:
+[12-Dec-2018 00:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:06:56 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:08:14 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:08:14 UTC] PHP Stack trace:
+[12-Dec-2018 00:08:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:08:14 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:08:14 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 32
+[12-Dec-2018 00:08:14 UTC] PHP Stack trace:
+[12-Dec-2018 00:08:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:08:14 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:09:03 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 33
+[12-Dec-2018 00:09:03 UTC] PHP Stack trace:
+[12-Dec-2018 00:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:09:03 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:09:03 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 33
+[12-Dec-2018 00:09:03 UTC] PHP Stack trace:
+[12-Dec-2018 00:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:09:03 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:48
+[12-Dec-2018 00:10:25 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 33
+[12-Dec-2018 00:10:25 UTC] PHP Stack trace:
+[12-Dec-2018 00:10:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:10:25 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:36
+[12-Dec-2018 00:10:25 UTC] PHP Warning:  Illegal string offset 'categoryName' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 33
+[12-Dec-2018 00:10:25 UTC] PHP Stack trace:
+[12-Dec-2018 00:10:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 00:10:25 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/finalproject/catalog.php:36
+[12-Dec-2018 02:37:19 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/cst336/finalproject/catalog.php on line 96
+[12-Dec-2018 02:37:19 UTC] PHP Stack trace:
+[12-Dec-2018 02:37:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 02:47:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/finalproject/catalog.php(12): getResults()
+#2 /home/ubuntu/workspace/cst336/finalproject/catalog.php(108): displayResults()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 72
+[12-Dec-2018 02:48:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/finalproject/catalog.php(12): getResults()
+#2 /home/ubuntu/workspace/cst336/finalproject/catalog.php(108): displayResults()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 72
+[12-Dec-2018 02:48:34 UTC] PHP Fatal error:  Cannot redeclare displayResults() (previously declared in /home/ubuntu/workspace/cst336/finalproject/catalog.php:9) in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 78
+[12-Dec-2018 02:48:34 UTC] PHP Stack trace:
+[12-Dec-2018 02:48:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/catalog.php:0
+[12-Dec-2018 02:48:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(81): getResults()
+#2 /home/ubuntu/workspace/cst336/finalproject/catalog.php(96): displayResults()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 72
+[12-Dec-2018 02:50:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(73): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(82): getResults()
+#2 /home/ubuntu/workspace/cst336/finalproject/catalog.php(96): displayResults()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 73
+[12-Dec-2018 02:50:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(73): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(82): getResults()
+#2 /home/ubuntu/workspace/cst336/finalproject/catalog.php(96): displayResults()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 73
+[12-Dec-2018 02:51:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(73): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(82): getResults()
+#2 /home/ubuntu/workspace/cst336/finalproject/catalog.php(96): displayResults()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 73
+[12-Dec-2018 02:52:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(73): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(82): getResults()
+#2 /home/ubuntu/workspace/cst336/finalproject/catalog.php(96): displayResults()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 73
+[12-Dec-2018 02:53:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(72): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(81): getResults()
+#2 /home/ubuntu/workspace/cst336/finalproject/catalog.php(96): displayResults()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 72
+[12-Dec-2018 03:49:37 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/finalproject/admin.php on line 8
+[12-Dec-2018 03:49:37 UTC] PHP Stack trace:
+[12-Dec-2018 03:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/admin.php:0
+[12-Dec-2018 04:13:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dungeon_keeper.dk_product' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/addProduct.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addProduct.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addProduct.php on line 23
+[12-Dec-2018 04:14:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productValue' cannot be null' in /home/ubuntu/workspace/cst336/finalproject/addProduct.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addProduct.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addProduct.php on line 23
+[12-Dec-2018 04:25:56 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 116
+[12-Dec-2018 04:25:56 UTC] PHP Stack trace:
+[12-Dec-2018 04:25:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/admin.php:0
+[12-Dec-2018 04:26:14 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 121
+[12-Dec-2018 04:26:14 UTC] PHP Stack trace:
+[12-Dec-2018 04:26:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/admin.php:0
+[12-Dec-2018 04:26:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.dk_categories' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(60): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 15
+[12-Dec-2018 04:29:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php on line 12
+[12-Dec-2018 04:37:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php on line 12
+[12-Dec-2018 04:49:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'productId'' in /home/ubuntu/workspace/cst336/finalproject/addProduct.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addProduct.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addProduct.php on line 23
+[12-Dec-2018 04:52:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'productId'' in /home/ubuntu/workspace/cst336/finalproject/addProduct.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addProduct.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addProduct.php on line 23
+[12-Dec-2018 04:56:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336/finalproject/addProduct.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/addProduct.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/addProduct.php on line 23
+[12-Dec-2018 05:11:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php on line 13
+[12-Dec-2018 05:14:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dungeon_keeper.dk_product' doesn't exist' in /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/deleteProduct.php on line 13
+[12-Dec-2018 05:32:43 UTC] PHP Parse error:  syntax error, unexpected ';', expecting '(' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 102
+[12-Dec-2018 05:32:43 UTC] PHP Stack trace:
+[12-Dec-2018 05:32:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/addProduct.php:0
+[12-Dec-2018 05:32:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting '(' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 102
+[12-Dec-2018 05:32:51 UTC] PHP Stack trace:
+[12-Dec-2018 05:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/admin.php:0
+[12-Dec-2018 05:32:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting '(' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 102
+[12-Dec-2018 05:32:58 UTC] PHP Stack trace:
+[12-Dec-2018 05:32:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalproject/admin.php:0
+[12-Dec-2018 05:38:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productCategory = '1'
+                    productImage = 'zombie.png'
+          ' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 30
+[12-Dec-2018 05:40:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productCategory = '1'
+                    productImage = 'zombie.png'
+          ' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 30
+[12-Dec-2018 05:40:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productCategory = '3'
+                    productImage = 'zomb.png'
+            ' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 30
+[12-Dec-2018 05:42:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productCategory = '1'
+                    productImage = 'zombie.png'
+          ' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 30
+[12-Dec-2018 05:46:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 29
+[12-Dec-2018 05:46:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productDescription = ''
+                    productValue = '30'
+                ' at line 4' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 29
+[12-Dec-2018 05:47:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productDescription = ''
+                    productValue = '25'
+                ' at line 4' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 29
+[12-Dec-2018 05:48:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productCategory = '1'
+                    productImage = 'zomb.png'
+            ' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 31
+[12-Dec-2018 05:50:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productCategory = '1'
+                    productImage = 'zomb.png'
+            ' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 30
+[12-Dec-2018 05:50:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productCategory = '2'
+                    productImage = 'zomb.png'
+            ' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 30
+[12-Dec-2018 05:51:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productImage = 'zombie.png'
+                    productValue = '25'
+            ' at line 3' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 29
+[12-Dec-2018 05:52:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE productId = '20'' at line 8' in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/updateProduct.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/updateProduct.php on line 31
+[12-Dec-2018 08:12:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php:79
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(79): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/finalproject/inc/functions.php(114): getResults()
+#2 /home/ubuntu/workspace/cst336/finalproject/admin.php(80): displayAdminResults()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalproject/inc/functions.php on line 79

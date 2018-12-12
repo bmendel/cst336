@@ -1,0 +1,20 @@
+header {
+    background-image: url('../img/cobblestone.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    color: gold;
+}
+
+body {
+    background-image: url('../img/parchment.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    text-align: center;
+    font-family: 'IM Fell DW Pica SC', serif;
+    padding-bottom: 400px;
+}
+
+img {
+    width: 300px;
+    border: 2px solid black;
+}
