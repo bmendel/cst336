@@ -4,7 +4,7 @@
     include '../inc/dbConnection.php';
     include 'inc/functions.php';
     
-    $dbConn = startConnection('dungeon_keeper');
+    $dbConn = startConnection('c9');
     validateSession();
     
     if (isset($_POST['add'])) {
@@ -21,7 +21,6 @@
         
         $stmt = $dbConn->prepare($sql);
         $stmt->execute($np);
-        echo "New product " . $_GET['productName'] . " was added!<br>";
     }
 ?>
 
@@ -38,13 +37,20 @@
     </head>
     
     <body>
-        <h1> Adding New Product </h1>
-        
         <?php include 'inc/header.php'; ?>
         
         <form method='post'>
-            <div class='container'>    
-                <legend>Search</legend>
+            <div class='container'>
+                <legend>
+                     <?php
+                        if (!isset($_POST['add'])) {
+                            echo "Add Product";
+                        }
+                        else {
+                            echo "Product was added!";
+                        }
+                    ?>
+                </legend>
                 
                 <div class='d-flex justify-content-center form-group row'>
                     <label for='name' class='col-form-label col-2'>Name</label>        

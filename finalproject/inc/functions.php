@@ -45,7 +45,7 @@
             if (!empty($_POST['lo']) && !empty($_POST['hi'])) {
                 $sql .= " AND productValue BETWEEN :lo AND :hi";
                 $np[':lo'] = $_POST['lo'];
-                $np[':lo'] = $_POST['hi'];
+                $np[':hi'] = $_POST['hi'];
             } 
             else if (!empty($_POST['lo'])) {
                 $sql .= " AND productValue >= :lo";
@@ -85,6 +85,11 @@
     function displayResults() {
         if (isset($_POST['search'])) {
             echo "<h2>Results</h2>";
+            if (!empty($_POST['lo']) && !empty($_POST['hi']) && $_POST['lo'] >= $_POST['hi']) {
+                echo "<br><div id='error'>Error: Low value MUST be lower than high value!</div>";
+                return;
+            }
+            
             $results = getResults();
             
             if (empty($results)) {
@@ -112,8 +117,12 @@
     
     function displayAdminResults() {
         if (isset($_POST['search'])) {
-            $products = getResults();
+            if (!empty($_POST['lo']) && !empty($_POST['hi']) && $_POST['lo'] >= $_POST['hi']) {
+                echo "<br><div id='error'>Error: Low value MUST be lower than high value!</div>";
+                return;
+            }
             
+            $products = getResults();
             if (empty($products)) {
                 echo "No results found!";
             }
@@ -128,5 +137,38 @@
                 echo "</form>";
             }
         }
+    }
+    
+    function generateReports() {
+        global $dbConn;
+        $sql = "SELECT * FROM dk_products";
+        
+        $stmt = $dbConn->prepare($sql);
+        $stmt->execute();
+        $reports = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        $totalProducts = 0;
+        $totalValue = 0;
+        $totalStock = 0;
+
+        foreach ($reports as $r) {
+            $totalProducts++;
+            $totalValue += $r['productValue'];
+            $totalStock += $r['productStock'];
+        }
+        
+        echo "<h3> Reports </h3>";
+        echo "<div class='d-flex justify-content-center form-group row'>";
+        echo "  <div class='col-1'>Total Products: </div>";  
+        echo "  <div class='col-1'>" . $totalProducts . "</div>";
+        echo "</div>";
+        echo "<div class='d-flex justify-content-center form-group row'>";
+        echo "  <div class='col-1'>Total Value: </div>";  
+        echo "  <div class='col-1'>" . $totalValue . " Gold</div>";
+        echo "</div>";
+        echo "<div class='d-flex justify-content-center form-group row'>";
+        echo "  <div class='col-1'>Total In Stock: </div>";  
+        echo "  <div class='col-1'>" . $totalProducts . "</div>";
+        echo "</div>";
     }
 ?>

@@ -1,10 +1,10 @@
 <?php
     session_start();
     
-    include 'inc/dbConnection.php';
+    include '../inc/dbConnection.php';
     include 'inc/functions.php';
     
-    $dbConn = startConnection('dungeon_keeper');
+    $dbConn = startConnection('c9');
     validateSession();
     
 ?>
@@ -33,6 +33,7 @@
         <h1> Dungeon Keeper: Admin Page </h1>
         
         <a class='btn btn-outline-dark' href='addProduct.php' role='button'>Add Product</a>
+        <a class='btn btn-outline-dark' href='adminReports.php' role='button'>Get Reports</a>
         <a class='btn btn-outline-dark' href='logout.php' role='button'>Logout</a>
         <br>
         
@@ -97,6 +98,8 @@
                             $('#monsterImage').attr('src', data.productImage);
                             $('#monsterImage').attr('alt', data.productImage);
                             $('#monsterDescription').html(data.productDescription);
+                            $('#monsterValue').html('Value: ' + data.productValue + " gold");
+                            $('#monsterStock').html(data.productStock + ' in stock');
                             $('#container').html("");
                         },
                     }); // ajax
@@ -121,7 +124,9 @@
                         <div id='container'></div>
                         <div>
                             <img id='monsterImage' src=''>
-                            <div id='monsterDescription'>Description: </div>
+                            <div id='monsterDescription'></div>
+                            <div id='monsterValue'></div>
+                            <div id='monsterStock'></div>
                         </div>
                     </div>
                     

@@ -2,7 +2,7 @@
 <?php
 
     include '../../inc/dbConnection.php';
-    $dbConn = startConnection('dungeon_keeper');
+    $dbConn = startConnection('c9');
     
     $sql = "SELECT * FROM dk_products WHERE productId = :id";
     $np = array();

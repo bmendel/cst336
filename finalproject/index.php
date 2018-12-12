@@ -14,6 +14,9 @@
     <body>
 	    <?php include 'inc/header.php'; ?>
         
+        <h1>Welcome to Dungeon Keeper!</h1>
+        <h2>Your one-stop shop for everything dark, slimy, horrific, and vile!</h2>
+        <br>
         <a class='btn btn-outline-dark' href='catalog.php' role='button'>Catalog</a>
         <a class='btn btn-outline-dark' href='login.php' role='button'>Login</a>
         

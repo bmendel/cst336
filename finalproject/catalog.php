@@ -2,7 +2,7 @@
 <?php
     session_start();
     include '../inc/dbConnection.php';
-    $dbConn = startConnection('dungeon_keeper');
+    $dbConn = startConnection('c9');
     include 'inc/functions.php';
 ?>
 
@@ -88,6 +88,8 @@
                             $('#monsterImage').attr('src', data.productImage);
                             $('#monsterImage').attr('alt', data.productImage);
                             $('#monsterDescription').html(data.productDescription);
+                            $('#monsterValue').html('Value: ' + data.productValue + " gold");
+                            $('#monsterStock').html(data.productStock + ' in stock');
                             $('#container').html("");
                         },
                     }); // ajax
@@ -112,7 +114,9 @@
                         <div id='container'></div>
                         <div>
                             <img id='monsterImage' src=''>
-                            <div id='monsterDescription'>Description: </div>
+                            <div id='monsterDescription'></div>
+                            <div id='monsterValue'></div>
+                            <div id='monsterStock'></div>
                         </div>
                     </div>
                     

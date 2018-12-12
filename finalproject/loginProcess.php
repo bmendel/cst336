@@ -4,7 +4,7 @@
         session_start();
         
         include '../inc/dbConnection.php';
-        $dbConn = startConnection('dungeon_keeper');
+        $dbConn = startConnection('c9');
         
         $username = $_POST['username'];
         $password = sha1($_POST['password']);

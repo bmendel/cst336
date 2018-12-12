@@ -4,7 +4,7 @@
     include '../inc/dbConnection.php';
     include 'inc/functions.php';
     
-    $dbConn = startConnection('dungeon_keeper');
+    $dbConn = startConnection('c9');
     validateSession();
     
     if (isset($_POST['update'])) {
@@ -56,14 +56,12 @@
             <div class='container'>    
                 <legend>
                     <?php
-                        echo "<legend>";
                         if (!isset($_POST['update'])) {
                             echo "Update " . $product['productName'];
                         }
                         else {
                             echo $product['productName'] . " was updated!";
                         }
-                        echo "</legend>";
                     ?>
                 </legend>
                 

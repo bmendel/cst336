@@ -4,7 +4,7 @@
     include '../inc/dbConnection.php';
     include 'inc/functions.php';
     
-    $dbConn = startConnection('dungeon_keeper');
+    $dbConn = startConnection('c9');
     validateSession();
     
     if (isset($_POST['delete'])) {
